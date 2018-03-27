@@ -58,9 +58,9 @@ public class SymmetricStringAnalyzer {
 			for(int i=0; i<s.length(); i++) {
 				char c = s.charAt(i);
 				if(Character.isUpperCase(c))
-					lP = "<"+s.substring(i)+lP  ;
+					lP = lP +"<"+c+"" ;
 				else {
-					lP= lP+ s.substring(i)+">";
+					lP= lP+c+">";
 					
 				}
 			}
